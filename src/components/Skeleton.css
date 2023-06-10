@@ -1,0 +1,62 @@
+.Skeleton-container {
+  padding: 1rem 1rem 0.01rem 1rem;
+  margin: 0;
+}
+
+.Skeleton-list {
+  padding: 0;
+  margin: 0;
+}
+
+.Skeleton-list-container {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.Skeleton-list-image {
+  height: 4.5rem;
+  width: 4.5rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  background-color: rgb(185, 185, 185);
+}
+
+.Skeleton-list-song {
+  width: 20rem;
+  height: 1.2rem;
+  background-color: rgb(185, 185, 185);
+  margin-bottom: 0.1rem;
+}
+
+.Skeleton-list-artist {
+  width: 20rem;
+  height: 1.2rem;
+  background-color: rgb(185, 185, 185);
+  margin-top: 0.1rem;
+}
+
+.Skeleton-list-container > div {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media only screen and (max-width: 493px) {
+  .Skeleton-list-song {
+    width: 10rem;
+  }
+  .Skeleton-list-artist {
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .Skeleton-list-song {
+    width: 5rem;
+  }
+  .Skeleton-list-artist {
+    width: 5rem;
+  }
+}
