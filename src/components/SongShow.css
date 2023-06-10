@@ -6,6 +6,7 @@
 
 .SongShow-container1 {
   display: flex;
+  justify-content: center;
 }
 
 .SongShow-container-image {
