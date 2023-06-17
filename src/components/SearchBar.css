@@ -1,0 +1,45 @@
+.SearchBar-content-container {
+  width: 100%;
+  max-width: 900px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.SearchBar-container {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.SearchBar-input {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  padding: 1rem 1rem;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.SearchBar-input:focus {
+  outline: none;
+}
+
+.SearchBar-other-container {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-top: 1rem;
+}
+
+.SearchBar-error {
+  padding: 1rem;
+}
+
+.SearchBar-error h2 {
+  color: white;
+  margin: 0;
+  letter-spacing: 1px;
+}
